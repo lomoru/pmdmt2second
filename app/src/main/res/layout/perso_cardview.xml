@@ -1,0 +1,37 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="personaje"
+            type="com.example.movilt2.PersoMarioData" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personaje"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
