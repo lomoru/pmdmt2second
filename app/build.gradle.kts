@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.movilt2"
-        minSdk = 24
+        minSdk = 31
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -37,6 +37,8 @@ android {
 }
 
 dependencies {
+
+    implementation("androidx.core:core-splashscreen:1.0.1")
 
     implementation("androidx.core:core-splashscreen:1.0.1")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
